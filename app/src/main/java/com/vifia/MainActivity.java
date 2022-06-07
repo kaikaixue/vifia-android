@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -114,5 +115,11 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     private void resetImgs() {
         mImg1.setImageResource(R.drawable.home_black);
         mImg2.setImageResource(R.drawable.my_black);
+    }
+
+    public void toPersonal(View view) {
+        Intent intent = new Intent(this, PersonalActivity.class);
+        intent.putExtra("title", "个人信息");
+        startActivity(intent);
     }
 }
