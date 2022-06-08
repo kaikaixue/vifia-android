@@ -1,12 +1,7 @@
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-        jcenter() // Warning: this repository is going to shut down soon
-    }
-}
-rootProject.name = "vifia"
 include ':app'
-include ':module-home'
-include ':library-widget'
+include ':module_home'
+include ':module_mine'
+include ':module_base'
+include ':module_aop'
+include ':module_common'
+include ':module_widget'

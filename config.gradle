@@ -1,0 +1,33 @@
+ext {
+
+    android = [
+            compileSdkVersion: 31,
+            minSdkVersion    : 21,
+            targetSdkVersion : 31,
+            versionCode      : 1,
+            versionName      : "1.0.0",
+    ]
+
+
+    libsVersion = [
+            butterknife_version = "10.0.0",
+            retrofit_version = "2.6.1",
+            lifecycle_version = "2.2.0",
+    ]
+
+    dependencies = [
+            arouterApi     : "com.alibaba:arouter-api:1.5.0",
+            arouterCompiler: "com.alibaba:arouter-compiler:1.2.2",
+            appcompat: 'androidx.appcompat:appcompat:1.2.0',
+            annotations: 'org.jetbrains:annotations:15.0',
+            material: 'com.google.android.material:material:1.3.0',
+            junit: 'junit:junit:4.+',
+            junitImplentation: 'androidx.test.ext:junit:1.1.2',
+            espressoCoreImplementation: 'androidx.test.espresso:espresso-core:3.3.0',
+            fragment: 'androidx.fragment:fragment:1.3.2',
+            constraintlayout: 'androidx.constraintlayout:constraintlayout:2.0.4',
+            navigationFragment: 'androidx.navigation:navigation-fragment:2.3.5',
+            constraintlayout: 'androidx.constraintlayout:constraintlayout:2.0.4',
+            legacySupportV4: 'androidx.legacy:legacy-support-v4:1.0.0',
+    ]
+}

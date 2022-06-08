@@ -1,6 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="55dp"
+    android:layout_height="100dp"
     android:gravity="center"
     android:orientation="horizontal">
 
@@ -8,9 +8,11 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:id="@+id/id_tab1"
+        android:id="@+id/home"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:background="#30ccf3">
 
         <ImageButton
             android:id="@+id/id_tab_img1"
@@ -25,13 +27,24 @@
             android:textColor="#A6A6A6"
             android:text="首页"/>
     </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/voice_btn"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/voice_btn">
+
+    </ImageButton>
+
     <LinearLayout
-        android:id="@+id/id_tab2"
+        android:background="#30ccf3"
+        android:id="@+id/mine"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
 
         <ImageButton
             android:id="@+id/id_tab_img2"
