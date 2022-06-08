@@ -8,3 +8,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "vifia"
 include ':app'
+include ':module-home'
+include ':library-widget'
