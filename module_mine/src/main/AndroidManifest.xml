@@ -4,7 +4,7 @@
 
     <application>
         <activity
-            android:name=".personal.Personal"
+            android:name=".personal.PersonalAc"
             android:exported="false" />
     </application>
 

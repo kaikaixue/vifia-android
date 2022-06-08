@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initEvent();
+        // 初始化
+        selectTab(0);
     }
 
     private LinearLayout home;
