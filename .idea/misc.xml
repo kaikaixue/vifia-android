@@ -17,6 +17,9 @@
         <entry key="..\:/code/SoftwareCup/vifia/app/src/main/res/layout/fragment_my.xml" value="0.25226449275362317" />
         <entry key="..\:/code/SoftwareCup/vifia/app/src/main/res/layout/fragment_tab.xml" value="0.25226449275362317" />
         <entry key="..\:/code/SoftwareCup/vifia/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26979166666666665" />
+        <entry key="..\:/code/SoftwareCup/vifia/module_home/src/main/res/layout/activity_news_detail.xml" value="0.22552083333333334" />
+        <entry key="..\:/code/SoftwareCup/vifia/module_home/src/main/res/layout/activity_news_item.xml" value="0.1734375" />
+        <entry key="..\:/code/SoftwareCup/vifia/module_home/src/main/res/layout/footer_layout.xml" value="0.17806484295845998" />
         <entry key="..\:/code/SoftwareCup/vifia/module_home/src/main/res/layout/fragment_home_education.xml" value="0.24094202898550723" />
         <entry key="..\:/code/SoftwareCup/vifia/module_home/src/main/res/layout/fragment_home_entertainment.xml" value="0.1453125" />
         <entry key="..\:/code/SoftwareCup/vifia/module_home/src/main/res/layout/fragment_home_fg.xml" value="0.1272644927536232" />
@@ -26,6 +29,8 @@
         <entry key="..\:/code/SoftwareCup/vifia/module_mine/src/main/res/layout/activity_personal.xml" value="0.1453125" />
         <entry key="..\:/code/SoftwareCup/vifia/module_mine/src/main/res/layout/fragment_mine_fg.xml" value="0.1453125" />
         <entry key="..\:/code/SoftwareCup/vifia/module_mine/src/main/res/layout/nav_menu.xml" value="0.1453125" />
+        <entry key="..\:/code/SoftwareCup/vifia/module_widget/src/main/res/layout/activity_back_bar.xml" value="0.11231884057971014" />
+        <entry key="..\:/code/SoftwareCup/vifia/module_widget/src/main/res/layout/activity_news_item.xml" value="0.17552083333333332" />
       </map>
     </option>
   </component>

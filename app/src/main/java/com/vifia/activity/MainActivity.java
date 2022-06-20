@@ -3,7 +3,9 @@ package com.vifia.activity;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AbsListView;
 import android.widget.LinearLayout;
+import android.widget.ListView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,15 +17,23 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.vifia.R;
 import com.vifia.module_base.constant.RouterActivityPath;
+import com.vifia.module_home.adapter.NewsAdapter;
+import com.vifia.module_home.bean.News;
 import com.vifia.module_home.home.HomeFg;
+import com.vifia.module_home.task.NewsTask;
 import com.vifia.module_mine.mine.MineFg;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Route(path = RouterActivityPath.Main.PAGER_MAIN)
 public class MainActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         initEvent();
         // 初始化
         selectTab(0);

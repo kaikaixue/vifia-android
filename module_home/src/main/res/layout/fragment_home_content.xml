@@ -3,12 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.vifia.module_home.sports.SportsFg">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    tools:context="com.vifia.module_home.content.ContentFg">
+    <ListView
+        android:id="@+id/listview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="体育" />
+        android:layout_height="match_parent" />
 
 </LinearLayout >
