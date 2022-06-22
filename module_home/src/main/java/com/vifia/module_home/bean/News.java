@@ -1,7 +1,5 @@
 package com.vifia.module_home.bean;
 
-import java.sql.Timestamp;
-
 public class News {
     private Integer pkId;
     private String title;

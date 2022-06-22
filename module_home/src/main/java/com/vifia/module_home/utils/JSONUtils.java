@@ -1,6 +1,7 @@
 package com.vifia.module_home.utils;
 
 import com.vifia.module_home.bean.News;
+import com.vifia.module_home.bean.NewsDetail;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -29,6 +30,26 @@ public class JSONUtils {
                 }
             }
             return  result;
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public static NewsDetail parseNewsDetail(String jsonData) {
+        JSONObject jo = null;
+        NewsDetail newsDetail = new NewsDetail();
+        try {
+            jo = new JSONObject(jsonData);
+            if (jo.getString("code").equals("0")) {
+                JSONObject jo1 = jo.getJSONObject("data");
+                newsDetail.setTitle(jo1.getString("title"));
+                newsDetail.setContent(jo1.getString("content"));
+                newsDetail.setType(jo1.getString("type"));
+                newsDetail.setSource(jo1.getString("source"));
+                newsDetail.setDate(jo1.getString("createTime"));
+            }
+            return newsDetail;
         } catch (JSONException e) {
             e.printStackTrace();
         }
